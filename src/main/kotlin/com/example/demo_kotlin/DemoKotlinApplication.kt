@@ -6,6 +6,7 @@ import org.springframework.context.annotation.ComponentScan
 
 @SpringBootApplication
 @ComponentScan("com.example.demo_kotlin.controller")
+@ComponentScan("com.example.demo_kotlin.service")
 class DemoKotlinApplication
 
 fun main(args: Array<String>) {
